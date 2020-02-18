@@ -1,0 +1,29 @@
+body{
+    color: white;
+    .AppRoot{
+        display: flex;
+        flex-direction: row;
+        .fileArea{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            .filelist{
+                .directory{
+                    color: #0c67df;
+                }
+                .file {
+                    color:  #0cdf28;
+                }
+                .selected{
+                    background-color: #2c3775;
+                }
+            }
+        }
+        .viewArea {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+        }
+    }
+    
+}
